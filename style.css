@@ -1,0 +1,486 @@
+/*
+Theme Name: Eco_House
+Theme URI: 
+Description: SwordFish Eco-House
+Version: 1.2.0
+Author:  Jorge_Melo
+Author URI: 
+*/
+
+
+/* GLOBAL STYLES*/
+a {
+	color: #cd4215;
+}
+
+body {
+	background-color: #FEFCFD;
+}
+
+.tranlate_index {
+	z-index: 2000;
+}
+
+.aling-d {
+	text-align: right;
+}
+
+.foto {
+	float: left;
+}
+
+.book_now {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-bottom: 5px;
+}
+
+.fotos {
+	height: 500px;
+	overflow: hidden;
+}
+
+.foto img {
+	height: 500px;
+	width: 100%;
+}
+
+.index_no {
+	padding-top: 40px;
+	background-color: #000000;
+	width: 100%;
+}
+
+.weather_block {
+	width: auto;
+	background-color: #FFC;
+	padding: 10px;
+	margin-right: 1%;
+}
+
+.surf {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	width: 100%;
+	height: 600px;
+}
+
+.reserver {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color: #EDF9F9;
+	margin-top: 10px;
+	border: 1px solid #CCC;
+	background-image: url(images/book.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+.reserver .wpcf7-submit {
+	padding: 10px;
+}
+
+.postmeta {
+	font-size: 85%;
+	font-style: oblique;
+}
+
+/* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+.navbar-inner {
+	border-radius: 0;
+	margin-bottom: -20px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 20px;
+	background-color: #000;
+}
+
+.carousel .container {
+	position: relative;
+}
+
+.carousel-control {
+	height: 80px;
+	margin-top: 0;
+	font-size: 120px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+	background-color: transparent;
+	border: 0;
+}
+
+.carousel .item {
+	height: 550px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.carousel img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 550px;
+}
+
+.carousel-caption {
+	background-color: transparent;
+	position: static;
+	max-width: 700px;
+	padding: 0 40px;
+	margin-top: 200px;
+}
+
+.carousel-caption h1,
+.carousel-caption .lead {
+	margin: 0;
+	line-height: 1.25;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.carousel-caption h1 {
+	font-size: 50px;
+}
+
+.carousel-caption .btn {
+	margin-top: 10px;
+}
+
+.pagination a {
+	text-decoration: none;
+	margin: 0 5px;
+	padding: 3px 5px;
+}
+
+.pagination a.selected {
+	background-color: #CCC;
+}
+
+/* Featurettes
+    ------------------------- */
+
+/*video*/
+.videocontainer {
+	width: 85%;
+	height: 0;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 3%;
+}
+
+.videocontainer.r1 {
+	padding-bottom: 100%;
+}
+
+.videocontainer iframe,
+.videocontainer embed,
+.videocontainer object {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* ----------*/
+
+.fb-like {
+	margin-top: 25px;
+}
+
+.carta {
+	height: 400px;
+	width: 100%;
+}
+
+.street {
+	height: 300px;
+}
+
+.entry-content {
+	padding-bottom: 10px;
+}
+
+.entry-content iframe {
+	width: 100% !important;
+}
+
+.title {
+	color: #CCC;
+}
+
+#map img,
+#street img,
+.surf img {
+	max-width: none;
+}
+
+.intro h2 {
+	font-size: 180%;
+}
+
+/*adminbar*/
+
+.navbar-fixed-top {
+	top: 0px;
+}
+
+body.admin-bar .navbar-fixed-top {
+	top: 28px !important;
+}
+
+.bois {
+	background-image: url(images/bois.jpg);
+	background-repeat: repeat;
+	background-position: center bottom;
+}
+
+.sapara {
+	clear: both;
+}
+
+.love,
+.pay {
+	font-size: 11px;
+	text-align: center;
+}
+
+.pay {
+	background-image: url(images/pay.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 40px;
+	background-color: #F7FBFB;
+	width: auto;
+}
+
+.f_bas {
+	background-color: #F7F7F7;
+	position: relative;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 25px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E6E6E6;
+	margin-top: 20px;
+}
+
+#booking {
+	display: none;
+}
+
+/* TESTTEMUNHOS 
+------------------------------------------------*/
+.avis {
+
+	padding: 10px;
+	position: relative;
+	margin-bottom: 10px;
+	color: #222222;
+
+
+}
+
+.avis h4 {
+	margin-bottom: 20px;
+
+}
+
+.person {
+	font-size: 35px;
+	display: inline;
+	border-radius: 50%;
+	vertical-align: middle;
+	color: #706f6f;
+	background-color:#ccc
+}
+
+.text_hosp {
+	color: #222222;
+	font-style: italic;
+
+
+}
+
+.subtitle {
+	color: #847f7f;
+	margin-top: 0px;
+}
+
+.booking {
+	color: #003580;
+}
+
+.fb {
+	color: #4267B2;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 979px) {
+	#fb_comments {
+		height: auto !important;
+		max-height: 400px;
+		padding-bottom: 0px;
+		overflow-y: scroll;
+	}
+
+	.index_no {
+		padding-top: 0px;
+		width: 100%;
+		background-color: #000000;
+	}
+
+	.carousel .item {
+		height: 500px;
+	}
+
+	.carousel img {
+		width: auto;
+		height: 500px;
+	}
+}
+
+@media (max-width: 767px) {
+	.videocontainer {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	#fb_comments {
+		height: auto !important;
+		max-height: 300px;
+		padding-bottom: 0px;
+		overflow-y: scroll;
+	}
+
+	.index_no {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-bottom: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #000000;
+	}
+
+	.carousel {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	.carousel .item {
+		height: 300px;
+	}
+
+	.carousel img {
+		height: 300px;
+	}
+
+	.carousel-caption {
+		width: 65%;
+		padding: 0 65px;
+		margin-top: 40px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 25px;
+	}
+
+	.carousel-caption .lead,
+	.carousel-caption .btn {
+		font-size: 14px;
+	}
+
+	.fotos {
+		height: 300px;
+		overflow: hidden;
+	}
+
+	.foto,
+	.foto img {
+		height: 300px;
+		width: 100%;
+	}
+
+	.surf {
+		width: 100%;
+		height: 400px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.carousel-caption h1 span,
+	.carousel-caption .lead span {
+		background-color: #333;
+	}
+
+	.videocontainer {
+		margin-bottom: 10%;
+	}
+
+	.carousel .item {
+		height: 200px;
+	}
+
+	.carousel img {
+		height: 200px;
+	}
+
+	.videocontainer {
+		width: 100%;
+	}
+
+	#fb_comments {
+		height: auto !important;
+		max-height: 300px;
+		padding-bottom: 0px;
+		overflow-y: scroll;
+	}
+
+	.index_no {
+		padding-bottom: 10px;
+	}
+
+	.carta {
+		height: 300px;
+		width: 100%;
+	}
+
+	.fotos {
+		height: 200px;
+		overflow: hidden;
+	}
+
+	.foto,
+	.foto img {
+		height: 200px;
+		width: 100%;
+	}
+
+	.temp h2 {
+		margin-top: 5%;
+	}
+
+	.surf {
+		width: 100%;
+		height: 300px;
+	}
+}
